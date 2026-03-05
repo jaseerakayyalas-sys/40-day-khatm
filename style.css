@@ -1,1 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#quran-text-container {
+    font-size: 32px; /* Large for easy reading */
+    line-height: 2.5; /* Lots of space between lines */
+    text-align: right; /* Right-to-Left for Arabic */
+}
+
+.ayah-word {
+    cursor: pointer;
+    padding: 0 5px;
+    transition: color 0.3s;
+}
+
+.ayah-word:hover {
+    color: #007bff; /* Turns blue when hovered */
+}
 
